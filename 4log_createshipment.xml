@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://tempuri.org/" xmlns:ns2="http://schemas.datacontract.org/2004/07/ShowbalAPI">
+    <SOAP-ENV:Body>
+        <ns1:CreateShipment>
+            <ns1:userName>JWGusername</ns1:userName>
+            <ns1:password>JWGpassward</ns1:password>
+            <ns1:s>
+			    <ns2:Bin></ns2:Bin>
+				<ns2:Fourlogref></ns2:Fourlogref>
+				<ns2:AddrValid></ns2:AddrValid>
+				<ns2:Location>1</ns2:Location> 
+				<ns2:ShipType></ns2:ShipType>
+				<ns2:AddresLine2 />
+                <ns2:AddressLine1></ns2:AddressLine1>
+                <ns2:AddressLine3City></ns2:AddressLine3City>
+                <ns2:AddressLine4State></ns2:AddressLine4State>
+                <ns2:CompanyName></ns2:CompanyName>
+                <ns2:CountryCode></ns2:CountryCode>
+                <ns2:EndContactEmail></ns2:EndContactEmail>
+                <ns2:EndContactPhone></ns2:EndContactPhone>
+                <ns2:FirstName></ns2:FirstName>
+                <ns2:Height>1</ns2:Height>
+                <ns2:LastName></ns2:LastName>
+                <ns2:Length>1</ns2:Length>
+                <ns2:OrderNumber></ns2:OrderNumber>
+                <ns2:ParcelWeight></ns2:ParcelWeight>
+                <ns2:Postcode></ns2:Postcode>
+                <ns2:ShipmentItemsArray>
+                    <ns2:ShipmentItem>
+                        <ns2:ProductDescription></ns2:ProductDescription>
+                        <ns2:ProductHarmonizedCode></ns2:ProductHarmonizedCode>
+                        <ns2:ProductItemOrigin></ns2:ProductItemOrigin>
+                        <ns2:ProductQuantity></ns2:ProductQuantity>
+                        <ns2:ProductUnitValue></ns2:ProductUnitValue>
+                        <ns2:ProductUnitWeight></ns2:ProductUnitWeight>
+                    </ns2:ShipmentItem>
+                </ns2:ShipmentItemsArray>
+                <ns2:Width>1</ns2:Width>
+            </ns1:s>
+        </ns1:CreateShipment>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
